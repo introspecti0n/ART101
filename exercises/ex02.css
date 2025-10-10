@@ -1,0 +1,19 @@
+p {
+    color:rgb(98, 129, 202);
+    background-color: pink;
+    padding: 50px;
+    margin: 50px;
+}
+
+ul {
+    color: rgb(98, 129, 202);
+}
+
+.high1 {background-color: rgb(55, 16, 23);}
+
+.high2 {background-color: purple;}
+
+
+#Dog {
+    width: 400px;
+}
