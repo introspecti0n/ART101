@@ -1,0 +1,44 @@
+H1, H2, H3 {color: #380711; font-family:monospace;}
+h1 {
+    font-size: 70px;
+    padding: 10px;
+    margin-top: 2in;
+    background-color: white;
+    width: 600px;
+}
+
+h2 {
+ font-size: 70px;
+    background-color: white;
+    width: 600px;
+    float: right;
+    margin-left: 3in;
+
+}
+
+ /* images {
+
+} */
+
+
+
+#ghost {
+   width: 400px;
+    float: right;
+    margin-left: 3in;
+
+}
+
+BODY {
+    background-image: url("inkwell.jpg");
+}
+
+#rain {
+float: top;
+display: flex;
+}
+
+#koko {
+margin-top: 1in;
+float: left;
+}
