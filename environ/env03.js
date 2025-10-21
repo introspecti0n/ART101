@@ -1,10 +1,20 @@
 let KokoInfo = {
+    name: "koko",
     species: "clown",
     age: 20,
-    name: "koko",
     birthplace: "New York",
     hairColor: "black",
     occupation: "preformer"
 };
 
-$("#output").html(KokoInfo);
+$(function () {
+    const output = $("#output");
+    let keys = Object.keys(KokoInfo);
+
+    keys.forEach(key => {
+        let id = `${key}`;
+        const d = $("<div></div>").attr("id", id).text(`${key}: ${KokoInfo[key]}`);
+        output.append(d);
+    });
+});
+

@@ -36,3 +36,9 @@ display: flex;
 margin-top: 1in;
 float: left;
 }
+
+#output {
+background-color: white;
+font-family: monospace;
+width: fit-content;
+}
