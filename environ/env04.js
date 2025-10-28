@@ -7,6 +7,8 @@ let KokoInfo = {
     occupation: "preformer"
 };
 
+
+
 $(function () {
     const output = $("#output");
     let keys = Object.keys(KokoInfo);
@@ -19,7 +21,13 @@ $(function () {
 });
 
 
+
+
+
 function displayPhrase()
 {
-    document.getElementById("weather").innerHTML = "the sun is shining..";
+  document.getElementById("weather").innerHTML = "the rain?";
+    document.getElementById("my-button").onclick = function() {
+    document.getElementById("rain").style.visibility = "visible";
 }
+    };

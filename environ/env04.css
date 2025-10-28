@@ -30,6 +30,7 @@ BODY {
 #rain {
     float: top;
     display: flex;
+    visibility: hidden;
 }
 
 #koko {
