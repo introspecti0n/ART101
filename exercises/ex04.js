@@ -1,12 +1,9 @@
 // add a button titled click me
-
 //when it is clicked
 //add one to the total number
-
 // show the total number.
 //on our button 
 // show "clicked total number times"
-
 // a top limit 
 
 let totalNum = 0;
@@ -23,6 +20,10 @@ $("#needy-button") .click (function() {
 
     $("body").css("background-color", colors [reminder])
     totalNum = totalNum + 1;
-   // let sentence = "I was clicked " + totalNum + " times!" 
-    //$("#needy-button").html(sentence);
+
+    if (totalNum == 4) {totalNum = 0;}
+
+    if (totalNum < 5) {text = "fresh and happy";}
+    else if (7 > totalNum > 5 ) {text = "...keep pushing";}
+    else if (10 > totalNum > 5 ) {text = "...keep pushing";}
 });
