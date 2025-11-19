@@ -6,7 +6,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- Overall title of your page -->
-   <title>Creature Garden</title>
+   <title>Creatures Garden </title>
    <!-- Link to external CSS file -->
    <link rel="stylesheet" href="creature.css">
    <!-- jQuery library -->
@@ -16,19 +16,21 @@
 </head>
 
 <body>
+   <!-- Main content goes here, inside BODY -->
+   <h1> Creatures Garden </h1>
 
-<h1> ‧₊˚❀༉‧₊˚. Creatures Garden ‧₊˚❀༉‧₊˚.</h1>
+   <div id="creature-form">
+      <h2>Add a creature</h2>
+      <div>Name: <input id="crName" type="text" maxlength="10"> </div>
+      <div>Color: <input id="crColor" type="color" value="#ee7dea"> </div>
+      <div>Number of eyes: <input id="crEyesNum" type="number" max="5" min="0" value="1"> </div>
+      <button id="add-creature">Let it roam!</button>
+   </div>
 
-
-<div id="creature-form"> 
-<h2> Add a Creature ✿ </h2>
-<input id="crName" type="text">
-<button id="add-creature"> Let it Roam</button>
-</div>
-
-
-<div id="creature-list"> creatures list will be there 
-</div>
+<h3>Creatures will come:</h3> 
+<button id="shuffle-creatures">randomize</button>
+   <div id="creature-list"> </div>
 
 </body>
+
 </html>
