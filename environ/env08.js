@@ -22,13 +22,10 @@ $(function () {
 });
 
 
-    $("#koko").mouseenter(function(){
+    $("#koko" && "#ghost" ).mouseenter(function(){
 document.getElementById("where").innerHTML = "don't touch me :(";
 });
 
-   $("#ghost").mouseenter(function(){
-document.getElementById("where").innerHTML = "don't touch me :(";
-});
 
 
 
